@@ -9,14 +9,8 @@ package practice01;
 public class PTra01_03 {
 	public static void main(String[] args) {
 
-		// ★ int型の変数 i を宣言してください
-
-
-		// ★ 変数 i に 10 を代入してください
-
-
-		// ★ 変数 i に入っている値を出力してください
-		System.out.println(i);
-
+		int i;					// ★ int型の変数 i を宣言してください
+		i = 10;					// ★ 変数 i に 10 を代入してください
+		System.out.println(i);	// ★ 変数 i に入っている値を出力してください
 	}
 }
