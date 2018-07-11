@@ -36,6 +36,7 @@ public class PTra05_04 {
 				break;
 			case "1":
 				System.out.println("月曜");
+<<<<<<< HEAD
 				winFlg = true;
 				break;
 			case "2":
@@ -59,6 +60,28 @@ public class PTra05_04 {
 				winFlg = true;
 				break;
 			}
+=======
+				break;
+			case "2":
+				System.out.println("火曜");
+				break;
+			case"3":
+				System.out.println("水曜");
+				break;
+			case"4":
+				System.out.println("木曜");
+				break;
+			case"5":
+				System.out.println("金曜");
+				break;
+			case"6":
+				System.out.println("土曜");
+				break;
+			default:
+				if(line <= 0 || line > 6);
+				continue;
+
+>>>>>>> 38ecaca997fa95a5b25ed6859ae29a0c169d93ed
 		}
 	}
 }

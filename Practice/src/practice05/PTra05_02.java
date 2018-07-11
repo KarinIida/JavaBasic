@@ -29,6 +29,7 @@ public class PTra05_02 {
 		 *
 		 *  ※##は変数inputの中身
 		 */
+<<<<<<< HEAD
 
 		switch (input % 2) {
 		case 0:
@@ -37,6 +38,15 @@ public class PTra05_02 {
 		case 1:
 			System.out.println(input + "は奇数です");
 			break;
+=======
+		switch(input) {
+			case 1:
+				System.out.println(input + "は偶数です");
+				break;
+			case 2:
+				System.out.println(input + "は奇数です");
+				break;
+>>>>>>> 38ecaca997fa95a5b25ed6859ae29a0c169d93ed
 		}
 	}
 }

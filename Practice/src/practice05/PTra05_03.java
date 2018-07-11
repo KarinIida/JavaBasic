@@ -42,8 +42,12 @@ public class PTra05_03 {
 			 * ●変数lineが"海"であった場合		->	変数oceanに1加算
 			 * ●変数lineが上記以外であった場合	->	「無効票です」を出力
 			 */
+<<<<<<< HEAD
 
 			switch (line) {
+=======
+			switch(line){
+>>>>>>> 38ecaca997fa95a5b25ed6859ae29a0c169d93ed
 			case "山":
 				System.out.println(mountain += 1);
 				break;
@@ -62,8 +66,14 @@ public class PTra05_03 {
 		}
 
 		// ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
+<<<<<<< HEAD
 			System.out.println("mountain:" + mountain);
 			System.out.println("river:" + river);
 			System.out.println("ocean:" + ocean);
+=======
+		System.out.println("山：" + mountain);
+		System.out.println("川：" + river);
+		System.out.println("海：" + ocean);
+>>>>>>> 38ecaca997fa95a5b25ed6859ae29a0c169d93ed
 	}
 }
